@@ -1,8 +1,8 @@
 name: Claude Code Warmup
-
 on:
   schedule:
-    - cron: '0 9 * * 1-5'
+    - cron: '0 21 * * *'  # UTC 21:00 = 北京时间 5:00
+
   workflow_dispatch: {}
 
 concurrency:
